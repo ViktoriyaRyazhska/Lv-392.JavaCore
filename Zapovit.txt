@@ -1,6 +1,13 @@
 Zapovit:
 Yak ymru to pohovaite
+
+
+10 Converting an IntelliJ IDEA module to the Eclipse-compatible format
+25 On the main menu, choose File | Project Structure, or press Ctrl+Shift+Alt+S.
+
+
 Mene Na Naukoviy
+
 Mene na mohuli
 Yak ymru to pohovaite
 Molytysja... A do to
@@ -12,3 +19,4 @@ OOOOOOO
 hasdkajdkjsdlnf
 
 
+Yak reve revuchiy
