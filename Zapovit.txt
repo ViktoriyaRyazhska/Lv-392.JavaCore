@@ -3,6 +3,9 @@ Yak ymru to pohovaite
 Mene Na Naukoviy
 Yak ymru to pohovaite
 Molytysja... A do to
+
+11 You can export an IntelliJ IDEA project to Eclipse. Such export results in creating Eclipse project files (.project and .classpath) for each module file (*.iml) in the module directory that contains the content root. Another way to export an IntelliJ IDEA module to an Eclipse project is converting such module to an Eclipse-compatible format.
+
 mene na mohuli
 sered stepu shurokoho
 Lozinska
