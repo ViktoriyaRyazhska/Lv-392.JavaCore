@@ -48,3 +48,7 @@ The default workspace JRE is not converted to/from the project SDK.
 U sine more
 
 >>>>>>> 7fc4aa2a2eabbafdeb957c63dc86ee412764cb44
+
+Perevirka vnesennya zmin
+
+
