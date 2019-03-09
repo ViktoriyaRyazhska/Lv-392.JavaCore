@@ -1,4 +1,4 @@
-Zapovit:
+Zapovit :
 
 Yak ymru to pohovaite
 Mene na mohuli
@@ -25,3 +25,4 @@ V sem'yi vol'niy noviy
 Ne zabud'te pomyanuty 
 Nezlym tyhym slovom.
 
+repeting the step #2
