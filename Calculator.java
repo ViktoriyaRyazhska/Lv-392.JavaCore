@@ -1,3 +1,5 @@
+/* to use this app you should run it, than enter the first number in console + enter, than - second number + enter end one of characters (+-*/) */
+
 import java.util.Scanner;
 
 public class Calculator {
