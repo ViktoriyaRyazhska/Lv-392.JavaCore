@@ -1,54 +1,27 @@
 Zapovit:
-Yak ymru to pohovaite
 
+Yak ymru to pohovaite
 Mene na mohuli
 Sered stepu shurokoho
-
-Mene Na Naukoviy
-
-
-55 You can export an IntelliJ IDEA project to Eclipse. Such export results in creating Eclipse project files (.project and .classpath) for each module file (*.iml) in the module directory that contains the content root. Another way to export an IntelliJ IDEA module to an Eclipse project is converting such module to an Eclipse-compatible format.
-
-
-Mene na mohuli
->>>>>>> andre
-Yak ymru to pohovaite
-Molytysja... A do to
-sered stepu shurokoho
-<<<<<<< HEAD
-
-111 From the Dependencies storage format drop-down list, select Eclipse (.classpath).
-
-Lozinska
-Yak ymru to pohovaite
-Molytysja... A do to
-OOOOOOO
-
-hasdkajdkjsdlnf
-=======
-Yak ymru to pohovaite
-Molytysja... A do to
-
->>>>>>> 7fc4aa2a2eabbafdeb957c63dc86ee412764cb44
-Yak reve revuchiy
-
-
-
-<<<<<<< HEAD
-
-45 At present, migration from IntelliJ IDEA to Eclipse is subject to certain limitations:
-IntelliJ IDEA modules with multiple content roots cannot not be migrated.
-External sources in Eclipse are not migrated.
-Only Java modules are created automatically during the export. However, any module can be converted to the Eclipse compatible format manually.
-The default workspace JRE is not converted to/from the project SDK.
-
-
->>>>>>> andre
-=======
-U sine more
-
->>>>>>> 7fc4aa2a2eabbafdeb957c63dc86ee412764cb44
-
-Perevirka vnesennya zmin 1
-
+na vkraini myliy 
+Shchob lany shyrokopoli 
+i Dnipro i kruchi
+Bulo vydno, bulo chuty
+Yak reve revuchyy
+Yak ponese z Ukrayiny
+U synyeye more
+Krov vorozhu.. otodi ya
+i lany i gory - 
+Vse pokynu i polynu
+Do samoho Boga
+Molytysya, a do togo
+Ya ne znayu Boga.
+Pohovayte ta vstavayte,
+kaydany porvite
+I vrazhoyu zloyu krov'yu 
+volyu okropite.
+I mene v sim'yi velykiy
+V sem'yi vol'niy noviy 
+Ne zabud'te pomyanuty 
+Nezlym tyhym slovom.
 
