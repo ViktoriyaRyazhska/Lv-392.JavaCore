@@ -32,4 +32,4 @@ public class Task3 {
 		System.out.println("Total price of call_1, call_2, call_3 will be: " + (user1 + user2 + user3)+ " $");
 	}
 
-}
+} 
