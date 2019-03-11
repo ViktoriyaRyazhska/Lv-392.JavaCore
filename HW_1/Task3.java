@@ -23,7 +23,7 @@ public class Task3 {
 		
 		System.out.println("User3, Please, enter the time, that you would like to use by phone in minutes...");
 		t3 = sc.nextInt();
-		double user1 = t1 + c1, user2 = t2 + c2, user3 = t3 + c3;
+		double user1 = t1 * c1, user2 = t2 * c2, user3 = t3 * c3;
 		
 		System.out.println("User1, your call per " + t1 + " min will cost: " + user1 + " $");
 		System.out.println("User2, your call per " + t2 + " min will cost: " + user2 + " $");
