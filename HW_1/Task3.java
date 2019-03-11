@@ -3,9 +3,7 @@ package com.softserveinc.career.HW_1;
 import java.util.Scanner;
 
 public class Task3 {
-
 	public static void main(String[] args) {
-		
 		// units per minute counts in "$"
 		double c1 = 5.50, c2 = 3.45, c3 = 12.50;
 		
@@ -16,8 +14,7 @@ public class Task3 {
 		
 		System.out.println("User1, Please, enter the time, that you would like to use by phone in minutes...");
 		t1 = sc.nextInt();
-		
-		
+				
 		System.out.println("User2, Please, enter the time, that you would like to use by phone in minutes...");
 		t2 = sc.nextInt();
 		
