@@ -8,15 +8,14 @@ public class FlowerBed {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		int radius;
-		float pi = 3.141592f;
-		float perim;
-		float area;
+		double perim;
+		double area;
 		BufferedReader br = new BufferedReader(
 				new InputStreamReader(System.in)); 
 		System.out.println("Put radius of circle in meters : ");
 		radius = Integer.parseInt(br.readLine());
-		perim = 2*pi*radius;
-		area = pi*(radius*radius);
+		perim = 2*Math.PI*radius;
+		area = Math.PI*(radius*radius);
 		System.out.println("Radius of cirqle = " +radius +" m");
 		System.out.printf("Perimeter of cirqle = %.2f", perim);
 		System.out.println(" m");
