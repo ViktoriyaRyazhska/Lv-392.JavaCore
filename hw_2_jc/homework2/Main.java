@@ -1,8 +1,10 @@
 package homework2;
 
+import java.io.IOException;
+
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         Person p1 = new Person("Nick", 1984);
         System.out.println(p1);
@@ -17,11 +19,11 @@ public class Main {
         p3.output();
 
         Person p4 = new Person();
-        p4.input("Felix", 1977);
+        p4.setBirthYear(1996);
         p4.output();
 
         Person p5 = new Person();
-        p5.setBirthYear(1996);
+        p5.input();
         p5.output();
     }
 }

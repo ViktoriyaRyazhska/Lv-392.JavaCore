@@ -1,5 +1,9 @@
 package homework2;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.time.LocalDate;
 
 public class Person {
 
@@ -29,8 +33,9 @@ public class Person {
         return birthYear;
     }
 
-    public int age(int currentYear) {
-        return currentYear - birthYear;
+    public int age() {
+        LocalDate localDate = LocalDate.now();
+        return localDate.getYear() - birthYear;
     }
 
     public void output(){
@@ -40,13 +45,21 @@ public class Person {
             System.out.println("name : " + name + ".");
         } else if (name == null && birthYear != 0){
             System.out.println("Unknown person, birth year : " + birthYear +
-                               ", " + "age : " + age(2019) + ".");
+                               ", " + "age : " + age() + ".");
         }else{
             System.out.println("Person's info is empty.");
         }
     }
 
-    public void input(String name, int birthYear){
+    public void input() throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        System.out.println("Enter the name : ");
+        String name = br.readLine();
+
+        System.out.println("Enter the birth year : ");
+        int birthYear = Integer.parseInt(br.readLine());
+
         if (name.length() > 0){ setName(name); }
         if (birthYear > 0) { setBirthYear(birthYear); }
     }
@@ -57,6 +70,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "name : " + name + ", " + "birth year : " + birthYear + ", " + "age : " + age(2019) + ".";
+        return "name : " + name + ", " + "birth year : " + birthYear + ", " + "age : " + age() + ".";
     }
 }
