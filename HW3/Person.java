@@ -1,3 +1,6 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.time.LocalDate;
 import java.time.Period;
 
@@ -31,6 +34,11 @@ public Person(String name,int birthYear)
 {
     this.name=name;
     this.birthYear=birthYear;
+}
+public String input() throws IOException {
+    BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
+    story=in.readLine();
+    return story;
 }
 
 public int age() {
