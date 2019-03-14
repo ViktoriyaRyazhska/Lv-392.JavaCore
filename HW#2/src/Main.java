@@ -1,7 +1,8 @@
+import java.io.IOException;
 
 public class Main {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		
 		Person person1 = new Person("Yulia", 1989);
 		
@@ -17,17 +18,20 @@ public class Main {
 		person4.setName("Vika");
 		person4.setBirthYear(1990);
 		
-		System.out.println("Put name for Person5: ");
 		Person person5 = new Person();
+		System.out.println("Put ur name: ");
 		person5.inputName();
-		System.out.println("Put birth year for Person5: ");
+		System.out.println("Put birhyear: ");
 		person5.inputAge();
+		person5.changeName();
 		
-		System.out.println("Person1: " +person1);
-		System.out.println("Person2: " +person2);
-		System.out.println("Person3: " +person3);
-		System.out.println("Person4: " +person4);
-		System.out.println("Person5: " +person5);
+		person1.output();
+		person2.output();
+		person3.output();
+		person4.output();
+		person5.output();
+
+
 		
 	}
 }

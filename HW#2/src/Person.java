@@ -1,12 +1,14 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.time.LocalDate;
-import java.util.Calendar;
 import java.util.Scanner;
 
 public class Person {
 	
 	private String name;
 	private int birthYear;
-	Scanner scanner = new Scanner(System.in);
+	static Scanner scanner = new Scanner(System.in);
 	
 	public void setName(String name) {
 		this.name = name;
@@ -50,6 +52,20 @@ public class Person {
 		int newAge = scanner.nextInt();
 		this.birthYear=newAge;
 		return newAge;
+	}
+	
+	public String changeName() throws IOException {
+		System.out.println("Change your name : ");
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String name = br.readLine();
+		this.setName(name);
+		System.out.println("You have new name: " +name);
+		return name;
+		
+	}
+	
+	public void output() throws IOException {
+		System.out.println("Person: Name = " +name+ ", Age = " +age());
 	}
 
 }
