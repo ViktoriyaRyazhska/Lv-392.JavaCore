@@ -23,7 +23,7 @@ public class Main {
 		else if(dog2.getAge() > dog1.getAge() && dog2.getAge() > dog3.getAge()) {
 			System.out.println(dog2.getName()+ " is the oldest dog ever!");
 		}
-		else if(dog3.getAge() > dog1.getAge() && dog3.getAge() > dog2.getAge()) {
+		else {
 			System.out.println(dog3.getName()+ " is the oldest dog ever!");
 		}
 		
