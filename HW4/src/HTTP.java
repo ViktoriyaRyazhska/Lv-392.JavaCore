@@ -29,11 +29,7 @@ public class HTTP {
 			System.out.println("We don't know nothing about this problem.");
 		}
 		if (a>399 && a<405) {
-			System.out.println("This is error number "+a+"-"+ httperror+"!");
-			
-		}
-		else {
-			System.out.println("");
+			System.out.println("This is error number "+a+" - "+ httperror+"!");	
 		}
 	}
 
