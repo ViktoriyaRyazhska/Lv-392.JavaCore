@@ -9,9 +9,9 @@ public class Main {
 		Breed corg = Breed.CORGI;
 		Breed saint = Breed.SAINTBERNARD; 
 		
-		Dog dog1 = new Dog("Hatiko", akit, 22);
-		Dog dog2 = new Dog("Beethoven", saint, 16);
-		Dog dog3 = new Dog("Whisky", corg, 11);
+		Dog dog1 = new Dog("Hatiko", akit, 9);
+		Dog dog2 = new Dog("Beethoven", saint, 12);
+		Dog dog3 = new Dog("Whisky", corg, 18);
 		
 		dog1.output();
 		dog2.output();
@@ -27,7 +27,7 @@ public class Main {
 			System.out.println(dog3.getName()+ " is the oldest dog ever!");
 		}
 		
-		if(dog1.getName() == dog2.getName() || dog1.getName() == dog3.getName() || dog2.getName() == dog3.getName()) {
+		if(dog1.getName().equals(dog2.getName()) || dog1.getName().equals(dog3.getName()) || dog2.getName() == dog3.getName()) {
 			System.out.println("There are dogs with equals names!");
 		}
 		else {

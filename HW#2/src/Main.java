@@ -23,8 +23,14 @@ public class Main {
 		person5.inputName();
 		System.out.println("Put birhyear: ");
 		person5.inputAge();
-		person5.changeName();
 		
+		
+		person1.output();
+		person2.output();
+		person3.output();
+		person4.output();
+		person5.output();
+		person5.changeName();
 		person1.output();
 		person2.output();
 		person3.output();
