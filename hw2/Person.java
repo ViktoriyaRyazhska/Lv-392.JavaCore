@@ -75,8 +75,7 @@ public class Person {
 	public static void main(String[] args) throws IOException {
 		Person p1 = new Person();
 		Person p2 = new Person();
-		Person p5 = new Person("John", 1974);
-//		System.out.println("Write name and birthday year: ");
+		Person p3 = new Person("John", 1974);
 
 		p1.input();
 		p1.output();
@@ -89,10 +88,10 @@ public class Person {
 		p2.age();
 		System.out.println(" \n");
 	
-		p5.output();
-		p5.age();
+		p3.output();
+		p3.age();
 		System.out.println(" \n");
-		p5.changeName();
+		p3.changeName();
 
 	}
 
