@@ -38,7 +38,7 @@ public class Dog {
 	
 	@Override
 	public String toString() {
-		return "";
+		return "Name: " +name+ " | Breed: " +breed+ " | Age: " +age;
 	}
 	
 	public void output() {
