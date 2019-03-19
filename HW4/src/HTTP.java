@@ -4,10 +4,10 @@ import java.io.InputStreamReader;
 
 public class HTTP {
 	public static void main(String[]args) throws NumberFormatException, IOException {
+		
 		HTTPError httperror = HTTPError.BadRequest;
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int a = Integer.parseInt(br.readLine());		
-		
 
 		switch(a) {
 		case 400:
@@ -31,6 +31,7 @@ public class HTTP {
 		if (a>399 && a<405) {
 			System.out.println("This is error number "+a+" - "+ httperror+"!");	
 		}
+		
 	}
 
 	}
