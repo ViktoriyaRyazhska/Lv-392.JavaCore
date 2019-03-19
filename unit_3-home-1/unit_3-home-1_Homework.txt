@@ -1,0 +1,26 @@
+Create Console Application project in Java.
+Add class Person to the project.
+Class Person should consists of
+	two private fields: name and birthYear (the birthday year) 
+	properties for access to these fields
+	default constructor and constructor with 2 parameters 
+methods:
+	age - to calculate the age of person
+	input - to input information about person
+	output - to output information about person
+	changeName - to change the name of person
+In the method main() create 5 objects of Person type and input information about them.
+
+
+Створити консольний проект на Java.
+Додайте до проекту людину Class.
+Клас особи повинен складатися з
++	два приватні поля: ім'я та рік народження (рік народження)
++	властивості для доступу до цих полів
++	конструктор за замовчуванням і конструктор з 2 параметрами
+методи:
++		вік - для розрахунку віку людини
++		input - вводити інформацію про особу
+		output - виводити інформацію про людину
+		changeName - змінити ім'я особи
+У методі main () створюють 5 об'єктів типу Person і вводять інформацію про них.
