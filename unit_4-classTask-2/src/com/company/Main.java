@@ -13,11 +13,11 @@ import java.util.List;
  */
 public class Main {
 
-    DayOfWeek dayOfWeek = DayOfWeek.FRIDAY;
+//    DayOfWeek dayOfWeek = DayOfWeek.FRIDAY;
     public static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private  static DayRegistration dayRegistration = new DayRegistration();
-    private static Main main = new Main();
-    private static Services services = new Services();
+//    private static Main main = new Main();
+//    private static Services services = new Services();
 
     public static void main(String[] args) throws IOException {
 
