@@ -24,15 +24,12 @@ public class Task1Int {
 
 		System.out.println("Put three int numbers: ");
 		
-		
 		int nb1 = Integer.parseInt(br.readLine());
 		int nb2 = Integer.parseInt(br.readLine());
 		int nb3 = Integer.parseInt(br.readLine());
 		
 		System.out.println("Max number: " + maxInt(nb1, nb2, nb3));
 		System.out.println("Min number: " + Math.min(nb1, Math.min(nb2,nb3)));
-		
-		
 	}
 
 }

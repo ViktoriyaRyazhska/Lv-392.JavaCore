@@ -45,5 +45,11 @@ public class Dog {
 		System.out.println("Name: " +name+ " | Breed: " +breed+ " | Age: " +age);
 	}
 	
-
+	public static Dog oldestDog(Dog old, Dog young) {
+			
+		if(old.getAge() > young.getAge()) {
+			return old;
+		}
+			return young;
+	}
 }

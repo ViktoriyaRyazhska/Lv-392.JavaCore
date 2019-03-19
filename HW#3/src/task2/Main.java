@@ -2,22 +2,6 @@ package task2;
 
 
 public class Main {
-	
-	public static String oldestDog(Dog dog1, Dog dog2, Dog dog3) {
-		String oldest;		
-		
-		if(dog1.getAge() > dog2.getAge() && dog1.getAge() > dog3.getAge()) {
-			oldest = dog1.getName();
-		}
-		else if(dog2.getAge() > dog1.getAge() && dog2.getAge() > dog3.getAge()) {
-			oldest = dog2.getName();
-		}
-		else {
-			oldest = dog3.getName();
-		}
-		return "Oldest dog: " +oldest;
-	}
-
 
 	public static void main(String[] args) {
 		
@@ -26,7 +10,7 @@ public class Main {
 		Breed corg = Breed.CORGI;
 		Breed saint = Breed.SAINTBERNARD; 
 		
-		Dog dog1 = new Dog("Hatiko", akit, 22);
+		Dog dog1 = new Dog("Hatiko", akit, 2);
 		Dog dog2 = new Dog("Beethoven", saint, 12);
 		Dog dog3 = new Dog("Whisky", corg, 18);
 		
@@ -35,7 +19,7 @@ public class Main {
 		dog3.output();
 		
 		
-		System.out.println(oldestDog(dog1, dog2, dog3));
+		System.out.println("Oldest dog: " +Dog.oldestDog(Dog.oldestDog(dog1, dog2), dog3).getName());
 		
 		if(dog1.getName().equals(dog2.getName()) || dog1.getName().equals(dog3.getName()) || dog2.getName() == dog3.getName()) {
 			System.out.println("There are dogs with equals names!");
