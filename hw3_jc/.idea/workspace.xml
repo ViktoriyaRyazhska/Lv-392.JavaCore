@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb3c83e8-5f0e-4ec2-84d1-22eb28b2953f" name="Default Changelist" comment="" />
+    <list default="true" id="fb3c83e8-5f0e-4ec2-84d1-22eb28b2953f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework3/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework3/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework3/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework3/FirstTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework3/HTTPErrors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework3/HTTPErrors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/homework3/DogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/homework3/DogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/homework3/FirstTaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/homework3/FirstTaskTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,14 +50,34 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1821809378">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="210" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="210" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homework3/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state relative-caret-position="799">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,11 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/homework3/FirstTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="833">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
@@ -72,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/homework3/FirstTaskTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="510">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/homework3/DogTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+            <state relative-caret-position="595">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homework3/HTTPErrors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -105,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homework3/Breeds.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="11" lean-forward="true" selection-end-line="5" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -114,11 +139,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homework3/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="29" selection-end-line="63" />
+            <state relative-caret-position="391">
+              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
               <folding>
+                <element signature="e#305#306#0" expanded="true" />
                 <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
                 <element signature="e#540#541#0" expanded="true" />
                 <element signature="e#1241#1242#0" expanded="true" />
                 <element signature="e#1309#1310#0" expanded="true" />
@@ -137,16 +162,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/homework3/Dog.java" />
-        <option value="$PROJECT_DIR$/test/homework3/DogTest.java" />
-        <option value="$PROJECT_DIR$/src/homework3/HTTPErrors.java" />
-        <option value="$PROJECT_DIR$/src/homework3/Breeds.java" />
         <option value="$PROJECT_DIR$/src/homework3/FirstTask.java" />
-        <option value="$PROJECT_DIR$/test/homework3/FirstTaskTest.java" />
         <option value="$PROJECT_DIR$/src/homework3/Main.java" />
+        <option value="$PROJECT_DIR$/src/homework3/HTTPErrors.java" />
+        <option value="$PROJECT_DIR$/test/homework3/FirstTaskTest.java" />
+        <option value="$PROJECT_DIR$/test/homework3/DogTest.java" />
+        <option value="$PROJECT_DIR$/src/homework3/Breeds.java" />
       </list>
     </option>
   </component>
@@ -158,17 +186,17 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
-    <option name="width" value="929" />
-    <option name="height" value="1088" />
+    <option name="width" value="930" />
+    <option name="height" value="1090" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,6 +230,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.DogTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework3.Main" />
       <module name="hw3_jc" />
@@ -321,11 +350,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DogTest" />
+        <item itemvalue="JUnit.FirstTaskTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FirstTaskTest.rangeNumbers" />
-        <item itemvalue="JUnit.DogTest" />
         <item itemvalue="JUnit.DogTest.setAge" />
-        <item itemvalue="JUnit.FirstTaskTest" />
       </list>
     </recent_temporary>
   </component>
@@ -343,16 +372,12 @@
       <workItem from="1552757276584" duration="3696000" />
       <workItem from="1552896047658" duration="4318000" />
       <workItem from="1552900633315" duration="3423000" />
+      <workItem from="1552975689917" duration="699000" />
+      <workItem from="1552976428182" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTaskTest - 2019.03.18 at 11h 57m 32s.xml">
-      <configuration name="FirstTaskTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTaskTest - 2019.03.18 at 11h 59m 06s.xml">
-      <configuration name="FirstTaskTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FirstTaskTest_rangeNumbers - 2019.03.18 at 11h 59m 26s.xml">
       <configuration name="FirstTaskTest.rangeNumbers" configurationId="JUnit" />
     </history-entry>
@@ -377,14 +402,20 @@
     <history-entry file="FirstTaskTest_rangeNumbers - 2019.03.18 at 12h 11m 58s.xml">
       <configuration name="FirstTaskTest.rangeNumbers" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FirstTaskTest - 2019.03.19 at 08h 18m 06s.xml">
+      <configuration name="FirstTaskTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DogTest - 2019.03.19 at 08h 18m 18s.xml">
+      <configuration name="DogTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19730000" />
+    <option name="totallyTimeSpent" value="20446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="-7" width="1476" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14265537" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14689265" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -393,7 +424,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.010738255" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17315437" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -421,20 +452,54 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Lv-392.JavaCore/hw_1_jc/FirstTask.java">
+    <entry file="file://$PROJECT_DIR$/../hw_1_jc/FirstTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="51" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="53" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/homework3/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homework3/HTTPErrors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homework3/Breeds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/homework3/DogTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/homework3/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="29" selection-end-line="63" />
+        <state relative-caret-position="391">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding>
+            <element signature="e#305#306#0" expanded="true" />
             <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
             <element signature="e#540#541#0" expanded="true" />
             <element signature="e#1241#1242#0" expanded="true" />
             <element signature="e#1309#1310#0" expanded="true" />
@@ -442,44 +507,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/homework3/HTTPErrors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/homework3/Breeds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" lean-forward="true" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/homework3/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/homework3/DogTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/homework3/FirstTaskTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -488,11 +519,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/homework3/FirstTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="833">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>

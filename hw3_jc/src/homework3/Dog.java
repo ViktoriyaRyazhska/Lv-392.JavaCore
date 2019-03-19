@@ -4,10 +4,10 @@ import java.util.Objects;
 
 public class Dog {
     private String name;
-    private Object breed;
+    private Breeds breed;
     private int age;
 
-    public Dog(String name, Object breed, int age) {
+    public Dog(String name, Breeds breed, int age) {
         this.name = name;
         this.breed = breed;
         this.age = age;
@@ -25,7 +25,7 @@ public class Dog {
         return breed;
     }
 
-    public void setBreed(Object breed) {
+    public void setBreed(Breeds breed) {
         this.breed = breed;
     }
 
