@@ -1,0 +1,34 @@
+Create Console Application project in Java.
+Add class Employee to the project.
+Class Employee should consists of
+ - three private fields: name, rate and hours; 
+ - static field totalSum
+ - properties for access to these fields;
+ - default constructor, constructor with 2 parameters (name and rate) and constructor with 3 parameters;
+ - methods:
+
+	1. salary - to calculate the salary of person (rate * hours)
+	2. toString - to output information about employee
+	3. changeRate - to change the rate of employee
+	4. bonuses – to calculate 10% from salary
+
+In the method main() create 3 objects of Employee type. Input information about them. 
+Display the total salary of all workers to screen
+
+
+Створити консольний проект на Java.
+Додайте до проекту співробітника класу.
+Клас Співробітник повинен складатися з
+  - три приватні поля: ім'я, швидкість і годинник;
+  - статичне поле totalSum
+  - властивості доступу до цих полів;
+  - конструктор за замовчуванням, конструктор з 2 параметрами (ім'я та швидкість) і конструктор з 3 параметрами;
+  - методи:
+
+	1. зарплата - для розрахунку зарплати людини (ставка * годин)
+	2. toString - для виведення інформації про працівника
+	3. змінаоцінки - зміна ставки працівника
+	4. бонуси - розрахувати 10% від зарплати
+
+У методі main () створюються 3 об'єкта типу Employee. Введіть інформацію про них.
+Відображення загальної заробітної плати всіх працівників на екрані
