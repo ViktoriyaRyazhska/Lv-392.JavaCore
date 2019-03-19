@@ -1,7 +1,7 @@
 package task2;
 
 public class Dog {
-	
+
 	private String name;
 	private Breed breed;
 	private int age;
@@ -44,4 +44,6 @@ public class Dog {
 	public void output() {
 		System.out.println("Name: " +name+ " | Breed: " +breed+ " | Age: " +age);
 	}
+	
+
 }
