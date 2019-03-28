@@ -24,7 +24,6 @@ public class PositionNumbers {
 		}
 
 //		minimum and it`s position
-
 		int min = numbers[0];
 		for (int i = 0; i < numbers.length; i++) {
 			if (numbers[i] < min) {
@@ -33,7 +32,6 @@ public class PositionNumbers {
 
 		}
 //		second positive number
-
 		int spn = 0;
 		int count = 0;
 		for (int i = 0; i < numbers.length; i++) {
