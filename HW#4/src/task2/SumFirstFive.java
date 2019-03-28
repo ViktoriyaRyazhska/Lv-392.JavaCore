@@ -13,8 +13,7 @@ public class SumFirstFive {
 		int prod = 1;
 
 		for (int i = 0; i < newArray2.length; i++) {
-			if (newArray2[0] >= 0 && newArray2[1] >= 0 && newArray2[2] >= 0 && newArray2[3] >= 0 && newArray2[4] >= 0
-					&& i < 5) {
+			if ((newArray2[i] >= 0) && (i < 5)) {
 				summ = summ + newArray2[i];
 
 			} else {
