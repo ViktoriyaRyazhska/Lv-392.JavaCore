@@ -38,17 +38,9 @@ public class FirstTask {
         ArrayList setArray1 = new ArrayList(set1);
         ArrayList setArray2 = new ArrayList(set2);
 
-        if (setArray1.size() >= setArray2.size()){
-            for (int i = 0; i < set1.size(); i++){
-                if (setArray2.contains(setArray1.get(i))){
-                    result.add(setArray1.get(i));
-                }
-            }
-        }else {
-            for (int i = 0; i < set2.size(); i++){
-                if (setArray1.contains(setArray2.get(i))){
-                    result.add(setArray2.get(i));
-                }
+        for (int i = 0; i < set1.size(); i++) {
+            if (setArray2.contains(setArray1.get(i))) {
+                result.add(setArray1.get(i));
             }
         }
         return result;
