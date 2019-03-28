@@ -5,7 +5,7 @@ public class SumFirstFive {
 
 	public static void main(String[] args) {
 
-		int[] tenNum = {-1, 222, 3, 4, 5, 1, 2, 31, 4, 5 };
+		int[] tenNum = {1, 222, 3, 4, 5, 1, 2, 31, 4, 5 };
 		int[] newArray = Arrays.copyOfRange(tenNum, 5, tenNum.length);
 		int[] newArray2 = Arrays.copyOfRange(tenNum, 0, 6);
 
