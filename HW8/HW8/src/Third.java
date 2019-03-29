@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 public class Third {
 	public static void main(String[]args) throws IOException {
 		 BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		  System.out.println("Write sentence with two space!!!");
+		  System.out.println("Write how much you have money in $");
 			String str = br.readLine();
 			String pattern = "\\$[1-9]+(\\.[0-9]{0,2})?";
 		    Pattern p = Pattern.compile(pattern);
