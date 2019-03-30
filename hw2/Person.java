@@ -77,6 +77,7 @@ public class Person {
 		Person p2 = new Person();
 		Person p3 = new Person("John", 1974);
 
+
 		p1.input();
 		p1.output();
 		System.out.println(" ");
