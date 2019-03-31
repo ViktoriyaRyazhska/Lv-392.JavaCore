@@ -1,6 +1,6 @@
 package task2;
 
-public class ContractEmployee extends Employee implements CalculatePay{
+public class ContractEmployee extends Employee implements ICalculatePay{
 	
 	private int federalTaxIdmember;
 	private int hoursWorked;

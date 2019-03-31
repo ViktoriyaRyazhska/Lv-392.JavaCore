@@ -1,6 +1,6 @@
 package task2;
 
-public interface CalculatePay {
+public interface ICalculatePay {
 	
 	public int calculatePay();
 	
