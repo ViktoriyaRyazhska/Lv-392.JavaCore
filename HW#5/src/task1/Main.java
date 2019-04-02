@@ -10,9 +10,9 @@ public class Main {
 		
 		for (int i = 0; i < bird.length; i++) {
 			if(bird[i] instanceof FlyingBird) {
-				((FlyingBird) bird[i]).fly();
+				bird[i].fly();
 			} else if(bird[i] instanceof NonFlyingBird) {
-				((NonFlyingBird) bird[i]).fly();
+				bird[i].fly();
 			}
 			System.out.println(bird[i]);
 		}
