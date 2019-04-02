@@ -34,7 +34,7 @@ public class SalariedEmployee extends Employee implements ICalculatePay {
 
 	@Override
 	public String toString() {
-		return String.format("\t%25s \t%25s \t%25s \t%25s", "[SalariedEmployee: employeeId = " + getEmployeeId(), " | Name = "+getName(), " | Social Security Number = " + socialSecurityNumber , " | Average wonthly wage = " + calculatePay()+"]");
+		return String.format("\t%15s \t%15s \t%15s \t%15s", "[SalariedEmployee: employeeId = " + getEmployeeId(), " | Name = "+getName(), " | Social Security Number = " + socialSecurityNumber , " | Average wonthly wage = " + calculatePay()+"]");
 	}
 	
 	

@@ -55,7 +55,7 @@ public class ContractEmployee extends Employee implements ICalculatePay{
 
 	@Override
 	public String toString() {
-		return String.format("\t%25s \t%25s \t%25s \t%25s", "[Contract Employee: employeeId = " + getEmployeeId(), " | Name = " + getName(), " | Federal Tax Id Member = " + federalTaxIdmember, " | Average wonthly wage = " + calculatePay()+"]");
+		return String.format("\t%15s \t%15s \t%15s \t%15s", "[Contract Employee: employeeId = " + getEmployeeId(), " | Name = " + getName(), " | Federal Tax Id Member = " + federalTaxIdmember, " | Average wonthly wage = " + calculatePay()+"]");
 	}
 	
 	
