@@ -8,15 +8,19 @@ import java.util.regex.Pattern;
 
 public class ThirdTask {
 
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Enter the sentence with US : ");
-        String str = br.readLine();
+    public static void main(String[] args) {
+        try {
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            System.out.println("Enter the sentence with US : ");
+            String str = br.readLine();
 
-        Pattern p = Pattern.compile("\\$\\d+\\.\\d{2}");
-        Matcher m = p.matcher(str);
-        while(m.find()){
-            System.out.println(str.substring(m.start(), m.end()));
+            Pattern p = Pattern.compile("\\$\\d+\\.\\d{2}");
+            Matcher m = p.matcher(str);
+            while (m.find()) {
+                System.out.println(str.substring(m.start(), m.end()));
+            }
+        }catch (IOException e){
+            System.out.println(e.getMessage());
         }
     }
 }

@@ -7,22 +7,27 @@ import java.io.InputStreamReader;
 
 public class FirstTask {
 
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Enter the sentence of five words : ");
-        String str = br.readLine();
+    public static void main(String[] args)  {
 
-        String [] arr = str.split(" ");
+        try {
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            System.out.println("Enter the sentence of five words : ");
+            String str = br.readLine();
 
-        if (arr.length != 5){
-            System.out.println("Your sentence contains wrong amount of words.");
-        }else{
-            String maxWord = longestString(arr);
-            System.out.println("The longest word is : " + maxWord);
-            System.out.println("It contains " + maxWord.length() + " letters.");
+            String[] arr = str.split(" ");
 
-            StringBuilder builder = new StringBuilder(arr[1]);
-            System.out.println(builder.reverse());
+            if (arr.length != 5) {
+                throw new MyException("Sentence must contain five words.");
+            } else {
+                String maxWord = longestString(arr);
+                System.out.println("The longest word is : " + maxWord);
+                System.out.println("It contains " + maxWord.length() + " letters.");
+
+                StringBuilder builder = new StringBuilder(arr[1]);
+                System.out.println(builder.reverse());
+            }
+        }catch (IOException | MyException e){
+            System.out.println(e.getMessage());
         }
     }
 
@@ -35,5 +40,13 @@ public class FirstTask {
             }
         }
         return maxWord;
+    }
+
+    static class MyException extends Exception {
+        public MyException(String msg) {
+            super(msg);
+        }
+
+        public MyException() { }
     }
 }
