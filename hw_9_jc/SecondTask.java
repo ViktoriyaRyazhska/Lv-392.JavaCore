@@ -2,7 +2,7 @@ package hw_9_jc;
 
 // не знаю як зробити це завдання :(
 
-public class DeadlockDemo {
+public class SecondTask {
     public final static Object first = new Object();
     public final static Object second = new Object();
 
