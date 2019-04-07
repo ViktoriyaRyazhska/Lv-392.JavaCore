@@ -25,7 +25,7 @@ public class FourthTask {
                     "file2.txt"));
             writer.write("Number of lines in file1.txt = " + text.size() + "\n");
             writer.write("Longest line : " + maxString(text) + "\n");
-            writer.write("Kate 14.12.99" + "\n");
+            writer.write("Kate 14 December" + "\n");
             writer.close();
         }catch (IOException e){
             e.getMessage();

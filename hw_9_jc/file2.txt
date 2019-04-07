@@ -1,3 +1,2 @@
 Number of lines in file1.txt = 81
-Longest line : occasionally write code, they are responsible for designing complex systems that will be implemented by other developers.
-Kate 14.12.99
+Longest line : occasionally write code, they are responsible for designing complex systems that will be implemented by other developers.Kate 14 December
