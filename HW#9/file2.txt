@@ -1,0 +1,4 @@
+Numbers of lines in file1: 5
+Longest string in file1: After practice i will get job at Soft Serve and try hard o improve my English)
+My name Taras Malynovskyi
+My date birth 22.03.1989
