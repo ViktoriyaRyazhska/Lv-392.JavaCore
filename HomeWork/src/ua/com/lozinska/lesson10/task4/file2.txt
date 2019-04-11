@@ -1,0 +1,1 @@
+Number of lines = 4; The longest line in file is: 3: And now I'm dreaming to become a JAVA developer.  My name is Olha, 04.02.1991.
