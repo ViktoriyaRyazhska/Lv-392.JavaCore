@@ -19,10 +19,8 @@ public class Task2 {
 		Pattern p = Pattern.compile(pattern);
 		Matcher m = p.matcher(str);
 		System.out.println("Before: " + str);
-		System.out.print("After: ");
-		while (m.find()) {
-			System.out.print(str.substring(m.start(), m.end()) + " ");
-		}
-	}
+		String str1 = str.replaceAll("\\s+", " ");
+		System.out.print("After: " + str1);
 
+	}
 }

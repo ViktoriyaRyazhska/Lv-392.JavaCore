@@ -8,7 +8,6 @@ public abstract class Employee implements CalculatePay{
 	public abstract double calculatePay();
 
 	public Employee(String name, String employeeId) {
-		super();
 		this.name = name;
 		this.employeeId = employeeId;
 	}

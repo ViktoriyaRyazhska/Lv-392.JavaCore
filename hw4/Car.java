@@ -12,7 +12,6 @@ public class Car {
 	private double engineCapacity;
 
 	public Car() {
-		super();
 	}
 
 	public Car(String type, int year, double engineCapacity) {
