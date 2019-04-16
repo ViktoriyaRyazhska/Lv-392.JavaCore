@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.text.DecimalFormat;
+import java.util.Random;
 import java.util.Scanner;
 
 public class PracticalTask {
@@ -12,6 +13,25 @@ public class PracticalTask {
 		}
 		return result;
 	}
+	public static int Numbers() throws NumberFormatException, IOException  {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Please enter number: ");
+        int n = Integer.parseInt(br.readLine()); 
+
+        int sum = 0;
+
+        for (int i = 0; i < n; i++) {
+
+            Random random = new Random();
+            int number = random.nextInt(2);
+            System.out.print(number + " ");
+            if (number == 1) {
+                sum = sum + 1;
+            }
+        }
+		return sum;
+        
+    }
 	  // Return true if the card number is valid 
     public static boolean isValid(long number) 
     { 
@@ -214,7 +234,7 @@ public class PracticalTask {
 			System.out.println(EnglishNumberToWords.convert(number1));
 			break;
 		case 9:
-			System.out.println("Not ready");
+			System.out.println("Number of 1 : " + Numbers());
 
 			break;
 		case 10:
@@ -477,5 +497,34 @@ class Task11 {
     } 
 		
 	}
+class Task9 {
+	        
+	public static int Numbers() throws NumberFormatException, IOException  {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Please enter number: ");
+        int n = Integer.parseInt(br.readLine()); 
 
+        int sum = 0;
+
+        for (int i = 0; i < n; i++) {
+
+            Random random = new Random();
+            int number = random.nextInt(2);
+            System.out.print(number + " ");
+            if (number == 1) {
+                sum = sum + 1;
+            }
+        }
+		return sum;
+        
+    }
+	
+	
+       
+	public static void main(String[] args) throws NumberFormatException, IOException {
+	
+        System.out.println("Number of 1 : " + Numbers());
+       
+	}     
+}
 
