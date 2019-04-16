@@ -3,7 +3,8 @@ package ua.com.lozinska.taskN.taskN7;
 import java.util.Scanner;
 
 public class Fuctorial {
-    public static void main(String[] args) {
+    public static void getFuctorial() {
+        System.out.println("7. Input number n and calculate n! (e.g. 5! = 1*2*3*4*5 = 120)");
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter number: ");
         int n = scan.nextInt();

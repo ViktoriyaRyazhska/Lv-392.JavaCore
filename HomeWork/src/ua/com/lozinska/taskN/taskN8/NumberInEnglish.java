@@ -3,7 +3,10 @@ package ua.com.lozinska.taskN.taskN8;
 import java.util.*;
 
 public class NumberInEnglish {
-    public static void main(String[] args) {
+    public static void getNumberInEnglish() {
+        System.out.println("8. Input number " +
+                "in range from 1 to 1 000 000 and output this number in English");
+
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter number (1 - 1 000 000): ");
         int n = scan.nextInt();

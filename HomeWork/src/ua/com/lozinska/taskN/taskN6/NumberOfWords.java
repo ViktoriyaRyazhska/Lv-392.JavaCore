@@ -7,7 +7,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class NumberOfWords {
-    public static void main(String[] args) throws IOException {
+    public static void getNumberOfWords() throws IOException {
+        System.out.println("6. Input text and calculate number of words in this text");
+
         System.out.println("Enter the sentence: ");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String sentence = br.readLine();

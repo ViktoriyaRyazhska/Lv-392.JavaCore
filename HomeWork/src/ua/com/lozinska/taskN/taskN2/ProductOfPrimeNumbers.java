@@ -4,7 +4,12 @@ import java.util.Scanner;
 
 public class ProductOfPrimeNumbers {
 
-    public static void main(String[] args) {
+    public static void getProductOfPrimeNumbers(){
+
+        System.out.println("Input number and decompose this number into a product of prime " +
+                "numbers with their degrees\n" +
+                "(e.g. number: 84, result 2^2, 3, 7)");
+
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter the number: ");
         int number = scan.nextInt();

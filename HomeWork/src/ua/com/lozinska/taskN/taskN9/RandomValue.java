@@ -4,7 +4,11 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class RandomValue {
-    public static void main(String[] args) {
+    public static void getRandomValue() {
+        System.out.println("9. Write method to return " +
+                "random value 0 or 1. Input number n, call this method n times and\n" +
+                "calculate how many times were number one");
+
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter number: ");
         int n = scan.nextInt();

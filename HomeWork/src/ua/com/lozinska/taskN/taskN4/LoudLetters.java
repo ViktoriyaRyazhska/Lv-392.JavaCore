@@ -7,7 +7,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class LoudLetters {
-    public static void main(String[] args) throws IOException {
+    public static void getLoudLetters()  throws IOException {
+        System.out.println("4. Input string and calculate number " +
+                "of loud letters (e.g. word: “My test text”, result: 3)");
+
         System.out.println("Enter the sentence: ");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String sentence = br.readLine();

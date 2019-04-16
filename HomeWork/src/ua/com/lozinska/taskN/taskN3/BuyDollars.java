@@ -3,7 +3,10 @@ package ua.com.lozinska.taskN.taskN3;
 import java.util.Scanner;
 
 public class BuyDollars {
-    public static void main(String[] args) {
+    public static void getBuyDollars() {
+        System.out.println("3. Input cost of dollar and sum of money in gryvna. Calculate how many dollars user can buy and\n" +
+                "change.");
+
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter the cost of dollar: ");
         double dollarCost = scan.nextDouble();

@@ -5,7 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Palindrome {
-    public static void main(String[] args) throws IOException {
+    public static void getPalindrome() throws IOException {
+        System.out.println("5.Input string and " +
+                "check if this string is palindrome (e.g. “ABCCBA”)");
+
         System.out.println("Enter the word: ");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String word = br.readLine();
