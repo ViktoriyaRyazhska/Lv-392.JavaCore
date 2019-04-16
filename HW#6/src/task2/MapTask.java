@@ -20,7 +20,8 @@ public class MapTask {
 		personMap.put("Jordan", "Mikel");
 		personMap.put("Backham", "David");
 
-		System.out.println("Original Map: ");
+		System.out.println("Original Map: " +personMap);
+		System.out.println();
 		for (Map.Entry<String, String> entry : personMap.entrySet()) {
 
 			System.out.print(entry.getKey() + " " + entry.getValue() + " | ");
