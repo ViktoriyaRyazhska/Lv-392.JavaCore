@@ -80,6 +80,7 @@ public class Main {
                                 " 1 to 10 without\n" +
                                 "any remainder. What is the smallest positive number that is evenly divisible by all of the\n" +
                                 "numbers from 1 to 20?");
+                        Task13.runner();
                         break;
                     case 14:
                         System.out.println("In England the currency is made up of pound, £, and pence, p, and there are eight coins in\n" +
