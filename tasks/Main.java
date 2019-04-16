@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
 
         while (true) {
-            System.out.println("Enter task number, please : ");
+            System.out.println("Enter task number, please, enter 0 to exit : ");
 
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -68,6 +68,7 @@ public class Main {
                         System.out.println("Enter the credit card number from the manufacturer (Visa, MasterCard, " +
                                 "American Express, Discover) and check for the correct number (see how credit cards " +
                                 "use the checksum)");
+                        Task11.validationt();
                         break;
                     case 12:
                         System.out.println("If we list all the natural numbers below 10 that are multiples of 3 or 5, " +
@@ -89,6 +90,8 @@ public class Main {
                                 "£2 be made using any number of coins?");
                         Task14.pounds();
                         break;
+                    case 0:
+                        System.exit(0);
                     default:
                         System.out.println("Wrong task number. Must be 1 - 14.");
                 }
