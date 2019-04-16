@@ -3,8 +3,6 @@ package ua.com.lozinska.my_project_with_db;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class SearchingMovie {
     public static final String CREATE_TABLE_MOVIE_QUERY = "CREATE TABLE IF NOT EXISTS movie(id INT PRIMARY KEY AUTO_INCREMENT, "
@@ -15,7 +13,7 @@ public class SearchingMovie {
         Statement statement = connection.createStatement();
         statement.execute(CREATE_TABLE_MOVIE_QUERY);
         ResultSet resultSet = statement.executeQuery("SELECT * FROM movie");
-        if(!resultSet.next()){
+        if (!resultSet.next()) {
             createTestData(connection);
         }
         statement.close();
@@ -51,11 +49,11 @@ public class SearchingMovie {
             while (resultSet.next()) {
                 Movie movie = new Movie(resultSet.getInt(2), resultSet.getString(3),
                         MovieGenre.valueOf(resultSet.getString(4).toUpperCase()), resultSet.getDouble(5),
-                        resultSet.getInt(5), resultSet.getString(6));
+                        resultSet.getInt(6), resultSet.getString(7));
                 filteredMovies.add(movie);
             }
-
             statement.close();
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -72,7 +70,7 @@ public class SearchingMovie {
         }
     }
 
-    public static void searchByName(List<Movie> myMovies) {
+    public static void searchByName(Connection connection) {
 
         String movieNameInput;
         System.out.println("Searching movie by name:");
@@ -85,14 +83,23 @@ public class SearchingMovie {
             return;
         }
 
-        Pattern p = Pattern.compile(movieNameInput);
         Movie filteredMovie = null;
-        for (Movie myMovie : myMovies) {
-            Matcher m = p.matcher(myMovie.getMovieName());
 
-            if (m.find()) {
-                filteredMovie = myMovie;
+        PreparedStatement statement = null;
+        try {
+            statement = connection.prepareStatement("SELECT * FROM movie WHERE movie_name = ?");
+            statement.setString(1, movieNameInput);
+            ResultSet resultSet = statement.executeQuery();
+
+            if (resultSet.next()) {
+                filteredMovie = new Movie(resultSet.getInt(2), resultSet.getString(3),
+                        MovieGenre.valueOf(resultSet.getString(4).toUpperCase()), resultSet.getDouble(5),
+                        resultSet.getInt(6), resultSet.getString(7));
             }
+            statement.close();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
 
         if (filteredMovie == null) {
@@ -107,14 +114,16 @@ public class SearchingMovie {
         System.out.println("If you want to rate the movie, input 1, to exit, input 0.");
         switch (ConsoleInput.enterString()) {
             case "1":
-                setRating(filteredMovie);
+                setRating(filteredMovie, connection);
                 break;
             case "0":
                 return;
+            default:
+                System.out.println("Please, input 0 or 1!");
         }
     }
 
-    public static void searchByGenre(List<Movie> myMovies) {
+    public static void searchByGenre(Connection connection) {
 
         System.out.println("Searching movie by genre:");
         System.out.println("Please, make your choice! Input genre: COMEDY, DRAMA, or HORROR:");
@@ -129,10 +138,23 @@ public class SearchingMovie {
             MovieGenre movieGenre = MovieGenre.valueOf(input.toUpperCase());
 
             List<Movie> filteredMovies = new ArrayList<>();
-            for (Movie myMovie : myMovies) {
-                if (movieGenre.equals(myMovie.getMovieGenre())) {
-                    filteredMovies.add(myMovie);
+
+            PreparedStatement statement = null;
+            try {
+                statement = connection.prepareStatement("SELECT * FROM movie WHERE movie_genre = ?");
+                statement.setString(1, input);
+                ResultSet resultSet = statement.executeQuery();
+
+                while (resultSet.next()) {
+                    Movie movie = new Movie(resultSet.getInt(2), resultSet.getString(3),
+                            MovieGenre.valueOf(resultSet.getString(4).toUpperCase()), resultSet.getDouble(5),
+                            resultSet.getInt(6), resultSet.getString(7));
+                    filteredMovies.add(movie);
                 }
+
+                statement.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
             }
 
             if (filteredMovies.isEmpty()) {
@@ -149,7 +171,7 @@ public class SearchingMovie {
         }
     }
 
-    public static void searchByRating(List<Movie> myMovies) {
+    public static void searchByRating(Connection connection) {
 
         System.out.println("Searching movie by rating:");
         System.out.println("Please, input movie rating 1..5:");
@@ -167,10 +189,23 @@ public class SearchingMovie {
         }
 
         List<Movie> filteredMovies = new ArrayList<>();
-        for (Movie myMovie : myMovies) {
-            if (myMovie.getMovieRating() >= movieRatingInput) {
-                filteredMovies.add(myMovie);
+
+        PreparedStatement statement = null;
+        try {
+            statement = connection.prepareStatement("SELECT * FROM movie WHERE movie_rating = ?");
+            statement.setInt(1, movieRatingInput);
+            ResultSet resultSet = statement.executeQuery();
+
+            while (resultSet.next()) {
+                Movie movie = new Movie(resultSet.getInt(2), resultSet.getString(3),
+                        MovieGenre.valueOf(resultSet.getString(4).toUpperCase()), resultSet.getDouble(5),
+                        resultSet.getInt(6), resultSet.getString(7));
+                filteredMovies.add(movie);
             }
+
+            statement.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
 
         if (filteredMovies.isEmpty()) {
@@ -184,7 +219,7 @@ public class SearchingMovie {
         }
     }
 
-    public static void setRating(Movie myMovie) {
+    public static void setRating(Movie myMovie, Connection connection) {
         int oldVoteCounter = myMovie.getVoteCounter();
         double oldRating = myMovie.getMovieRating();
 
@@ -200,5 +235,19 @@ public class SearchingMovie {
 
         System.out.println("New rating = " + myMovie.getMovieRating());
         System.out.println("Voters count = " + myMovie.getVoteCounter());
+
+        try {
+            PreparedStatement statement = connection.prepareStatement
+                    ("UPDATE movie SET movie_rating=?, vote_counter=? WHERE movie_name=?");
+
+            statement.setDouble(1, myMovie.getMovieRating());
+            statement.setInt(2, myMovie.getVoteCounter());
+            statement.setString(3, myMovie.getMovieName());
+            statement.execute();
+
+        } catch (
+                SQLException e) {
+            e.printStackTrace();
+        }
     }
 }

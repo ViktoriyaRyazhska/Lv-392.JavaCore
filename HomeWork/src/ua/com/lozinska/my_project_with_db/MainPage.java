@@ -30,22 +30,21 @@ public class MainPage {
                     case "1":
                         SearchingMovie.searchByYear(connection);
                         break;
-//                    case "2":
-//                        SearchingMovie.searchByName(connection);
-//                        break;
-//                    case "3":
-//                        SearchingMovie.searchByGenre(connection);
-//                        break;
-//                    case "4":
-//                        SearchingMovie.searchByRating(connection);
-//                        break;
+                    case "2":
+                        SearchingMovie.searchByName(connection);
+                        break;
+                    case "3":
+                        SearchingMovie.searchByGenre(connection);
+                        break;
+                    case "4":
+                        SearchingMovie.searchByRating(connection);
+                        break;
                     case "0":
                         System.exit(0);
                     default:
                         System.out.println("Wrong input information!");
                         System.out.println("Please, enter integer number: 1 or 2 or 3 or 4 or 0.");
                 }
-                connection.close();
             }
         } catch (SQLException e) {
             e.printStackTrace();
